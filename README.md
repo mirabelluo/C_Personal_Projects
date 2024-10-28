@@ -1,6 +1,6 @@
 # Mirabel's Personal Projects
 
-This is a personal repository for projects in C, below is a brief description of each project.
+This is a personal repository for my coding projects, below is a brief description of each project.
 
 ## Projects in C
 
