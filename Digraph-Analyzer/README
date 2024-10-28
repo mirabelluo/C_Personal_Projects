@@ -1,0 +1,33 @@
+Hopkins ID: 4AD13F
+
+I organized my program in the suggested manner, with a main, digraph_analyzer.cpp and support functions, 
+which can be found in digraph_functions.cpp, which are included in main using the header file, 
+digraph_functions.h.
+
+The functions are organized into four blocks: initial processing of text file, searching and storing 
+of words containing digraphs, sorting and printing according to command line arguments, and the handling of user input queries. 
+
+I tried to structure my functions in this manner so that main can be easily implemented, almost all
+of the program is packaged into functions, other than the reading in of command-line arguments
+and the initialization of some containers/strings. Below are brief descriptions of each function:
+
+    read_file: opens input file for reading and loads in specified digraphs and text. helpers include:
+
+        lower: returns a lowercase version of a word - handles case sensitivity.
+
+        remove_punctuation: removes punctuattion - handles case snsitivity.
+    
+    analyze_text: takes in text and finds words containing stipulated digraphs. helpers include:
+
+        split_text: splits a text into vectors of individual words.
+    
+    sort_print: sorts results based on command-line specifier. helpers include:
+
+        c_sort: compares counts of each digraph and breaks ties by ascii.
+    
+    handle_query: prompts user for entry of query and handles any input by return prompted count/digraphs.
+
+For specific function definitions, please look to the docstrings above each function in digraph_functions.cpp.
+
+All of these functions are defined either to assist a larger function, or to complete a certain task 
+(read, search, sort, print, queries).
