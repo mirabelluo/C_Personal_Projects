@@ -1,0 +1,407 @@
+commit 1c4ef815ae0c48dd65fdd5b656f06c43b41db10f
+Merge: 06ad811 fbc97cf
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Fri Mar 15 10:36:48 2024 -0400
+
+    working blur?
+
+commit 06ad8118152d5f49f8b28923031e39d53d9e3784
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Fri Mar 15 10:34:11 2024 -0400
+
+    adding commenting
+
+commit fbc97cf323ab99f8aff7ef8ce79add60fc1e98f3
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Fri Mar 15 10:32:56 2024 -0400
+
+    trying to push pointilism
+
+commit 109cc66c0dc0f289dd8d23bb6be66a7d300db448
+Merge: 1007ffe f892859
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Fri Mar 15 10:31:50 2024 -0400
+
+    working pointilism
+
+commit 1007ffe015158843009c751cc984e9a2a322a3d8
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Fri Mar 15 10:30:24 2024 -0400
+
+    working pointilism!
+
+commit f892859efbf44c3d60fba55ebb8d486c35b6af84
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Fri Mar 15 10:13:10 2024 -0400
+
+    fully functional main, debugging blur
+
+commit 6a31b093453ebceee4a1a07992d4c5e5b55782d7
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Thu Mar 14 17:13:25 2024 -0400
+
+    small bug in blur
+
+commit 2b967d937d7f84b636a55b49b4098b4da02b556f
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Thu Mar 14 16:35:15 2024 -0400
+
+    fixing blur...
+
+commit 29ed1a2d1a9b27ea1388616860be90cf7701f64a
+Merge: 10d9db0 43c3308
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Thu Mar 14 15:31:20 2024 -0400
+
+    working on blur
+
+commit 10d9db019265051c4c7ca112c44b9974bf12db07
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Thu Mar 14 15:30:53 2024 -0400
+
+    fixing blur
+
+commit 43c3308eef156f906d37de7fd774ab6957a5380c
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Thu Mar 14 15:27:00 2024 -0400
+
+    update to pointilism
+
+commit 14f47f1991897ed8a9f4382d716e838c27a20ddd
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Thu Mar 14 15:08:06 2024 -0400
+
+    going through gradescope. small fix to main
+
+commit 5ad6a8aaf9b53b39d38ae2b6825fbe52b1756b21
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Thu Mar 14 15:07:12 2024 -0400
+
+    error+comments
+
+commit fda4aed9f4daef5c39690a5a681faccd1612705d
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Thu Mar 14 14:42:34 2024 -0400
+
+    comments+error handeling
+
+commit 9a469e45268901c951aa4ad17549c536d85a0ed1
+Merge: e044109 0fdd32b
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Thu Mar 14 14:35:49 2024 -0400
+
+    comments added
+
+commit e0441098f64e56100d7f955c343d64e3070c328d
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Thu Mar 14 14:34:46 2024 -0400
+
+    Comments added
+
+commit 0fdd32b2ab3c0ceabab05fb41693d365f28195c0
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Thu Mar 14 13:05:03 2024 -0400
+
+    working main! testing and adding more error handling next
+
+commit bcfd12b2c3c8a4c3913d585c6a8794a86c6a098e
+Merge: 3f1aec6 9c8495a
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Thu Mar 14 12:03:30 2024 -0400
+
+    trying to fix diverge
+
+commit 3f1aec6a4dce1cbc3715c55d8759a9775d2534f1
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Thu Mar 14 11:59:59 2024 -0400
+
+    working to fix main calling of blend
+
+commit 9c8495ab1bb34546e7acb54165ec9d4f4a689938
+Merge: 34f9847 4a1a509
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Thu Mar 14 11:41:54 2024 -0400
+
+    blend finished
+
+commit 34f984701309657ba4069b6464d6efb8f4c332c1
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Thu Mar 14 11:40:25 2024 -0400
+
+    blend finished
+
+commit 4a1a509b8972cf6923648da925b0d0f621a49338
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Thu Mar 14 11:38:01 2024 -0400
+
+    working blend! testing main
+
+commit 85d71252ce78045055fff9eabede54bf076efcc3
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Thu Mar 14 11:34:27 2024 -0400
+
+    fixing blend
+
+commit 5b29b8b722b3356030158dc3b0b66b6a206ecc4d
+Merge: 370f0d5 4f8fb98
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Thu Mar 14 11:32:56 2024 -0400
+
+    fixing merge
+
+commit 370f0d559672f97a1770a571a31bdf4d0a1eb848
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Thu Mar 14 11:30:44 2024 -0400
+
+    edited blend, should be working
+
+commit 4f8fb98ef227a291fe14dd959e433a8f560ee32a
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Thu Mar 14 11:29:07 2024 -0400
+
+    blend working
+
+commit c3ce91634878ec5e724f92f92720279139d67820
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Thu Mar 14 11:02:24 2024 -0400
+
+    more blend progress
+
+commit ec329a5fac83789f7caa0fdced1297a374dcc846
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Thu Mar 14 10:51:44 2024 -0400
+
+    more work on blend
+
+commit 0f9eebc4abbe672c1f00933786298dc701f3564b
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Thu Mar 14 10:43:40 2024 -0400
+
+    clamping for blend
+
+commit e04b16accfa0fbea73138b749a9cb3a3bafca00b
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Thu Mar 14 04:51:58 2024 -0400
+
+    more progress on blend but still not working:(
+
+commit b962d151e4eed5ff0bd3da28cc63c39c0344e609
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Thu Mar 14 04:16:56 2024 -0400
+
+    progress on blend
+
+commit 981a8480e3937a9001ea69ef0f6ea989e3f6c455
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Wed Mar 13 14:34:25 2024 -0400
+
+    added error handling, fixed function call in main
+
+commit 714ce5de29ab412223aeb7e7c1e3a923e89be659
+Merge: 1cd4dc7 1571242
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Wed Mar 13 14:24:35 2024 -0400
+
+    trying to fix merge head
+
+commit 1571242c257e13ab942af7a7dd8ccd58fd0a2e9f
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Wed Mar 13 14:22:05 2024 -0400
+
+    pointalism completed
+
+commit 1cd4dc7a1d7e3072ffe40819de22460dd66b105c
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Wed Mar 13 14:21:39 2024 -0400
+
+    error handling for main, moved to new function, not working yet
+
+commit a95f933d1f5bf8f3cd6f8a747237e640397631d2
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Tue Mar 12 23:45:18 2024 -0400
+
+    basic framework of main done, more error handling next
+
+commit 44dd563f89f4c2c57e32491bc2088de7c8243adf
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Tue Mar 12 15:34:39 2024 -0400
+
+    correct grayscale and blur to use make_image
+
+commit aeecf0ac641b3469c22436c1013579bc83629b48
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Tue Mar 12 03:30:30 2024 -0400
+
+    added more testing for pointilism
+
+commit 066a971ce47b03d9762e7edc4d698d9b452b992e
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Tue Mar 12 01:24:15 2024 -0400
+
+    restarted blend, some progress
+
+commit 5cac01542caddf23da08f1335c9306fa510a9901
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Tue Mar 12 00:52:49 2024 -0400
+
+    pointalism done
+
+commit be92d56a14c205f1b5e9ee0facfee91b894bee27
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Mon Mar 11 23:24:36 2024 -0400
+
+    Poitalism almost done (-error handeling)
+
+commit 9208de4d624c982ccbf42a57edad36bd18e198f0
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Mon Mar 11 15:54:55 2024 -0400
+
+    more progress for point
+
+commit 11b71ab3ecad12cb119b1f910c978d67a77de88f
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Mon Mar 11 15:27:38 2024 -0400
+
+    testing pointilism function
+
+commit 867c0f15b084648452c6e0f48c4458d9ccbb0e79
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Mon Mar 11 15:20:56 2024 -0400
+
+    pointalism progress
+
+commit c611ebf7faeab66d09dcabe24ace042271ac99a8
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Mon Mar 11 15:16:59 2024 -0400
+
+    added basic framework for main
+
+commit 162346d2287cc48febb0814a090a1b8178ae228e
+Merge: e500316 3288cba
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Mon Mar 11 14:46:47 2024 -0400
+
+    pointilism wip
+
+commit e50031657973717c02359b5c63a07d9c05d0c974
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Mon Mar 11 14:45:52 2024 -0400
+
+    pointilism wip
+
+commit 3288cbaddef2b8fd537d9a19d6d8cda8c0ff03f2
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Mon Mar 11 14:44:40 2024 -0400
+
+    started main implementation
+
+commit 1fefe6b43b6512671301aeb881b68a513006163d
+Merge: 535bf17 a5dec2a
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Mon Mar 11 14:22:52 2024 -0400
+
+    started pointilism
+
+commit 535bf17654efbc90cfb7ec0945ce583fa463902b
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Mon Mar 11 14:22:08 2024 -0400
+
+    pointalism started
+
+commit a5dec2a0d675e1523d529dde0d7da1c3a479482d
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Mon Mar 11 14:21:21 2024 -0400
+
+    casted to Pixel * in rotate
+
+commit a59c6808abf56a1a4c8395671800dc8b59e885d0
+Merge: 2918a22 169c397
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Mon Mar 11 14:12:22 2024 -0400
+
+    added comments to image_manip
+
+commit 2918a22925692e387cf90ac9615ef25bb592e6cf
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Mon Mar 11 14:09:02 2024 -0400
+
+    added comments to image_manip.c
+
+commit 169c397fcb5d8bf9f01c85e5cc0cda7dfc3854a7
+Merge: 0a8ff0c c9ad6b0
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Mon Mar 11 14:02:15 2024 -0400
+
+    Merge branch 'master' of github.com:jhu-ip/2024-spring-midterm-mluo12-snoured1
+
+commit 0a8ff0c86ef8e4c0e7ee686a1caf9905111deb10
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Mon Mar 11 13:58:14 2024 -0400
+
+    finished rotate
+
+commit c9ad6b08086fbdf8f31a061c2d594f0ef8c50fd5
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Sun Mar 10 16:32:20 2024 -0400
+
+    finished saturate function
+
+commit 95750b158bb6f41c2081ab037ad8b1e9fa07543e
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Sun Mar 10 15:10:09 2024 -0400
+
+    image_manip.c: working blur function
+
+commit e7ec8d44b6f32ab4df22d628396f5ddc6e89c9c0
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Sun Mar 10 12:30:10 2024 -0400
+
+    finished grayscale, starting on blur
+
+commit 9f49245011366dfe23d0e4015e0d516557e6e5e2
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Wed Mar 6 14:30:50 2024 -0500
+
+    work in progress grayscale
+
+commit 90933ae789b97670570c45036ed99c88e0b9913b
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Mon Mar 4 14:36:38 2024 -0500
+
+    w/ fixed img_cmp and checkerboard.c
+
+commit c64907530a72d0f23e2ec827742844c5ef7fdd89
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Mon Mar 4 14:08:17 2024 -0500
+
+    finished testing functions
+
+commit cfc0706cdc7a16dd4a10de2778fcba11c0884451
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Sun Mar 3 21:53:00 2024 -0500
+
+    made make_image and free_image
+
+commit adbff45ac79222aa36cf288f55330de85cadfd83
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Sun Mar 3 17:33:29 2024 -0500
+
+    working makefile
+
+commit 12b693dbd148a07049f04fe054351bd8b8695a87
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Sat Mar 2 20:41:58 2024 -0500
+
+    fixing makefile
+
+commit 4305c3a7219fce2fd0fa4898386f3d81b51b3e26
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Sat Mar 2 19:48:59 2024 -0500
+
+    made readme
+
+commit 8df00bec192a6ae342959d0379f342a81135147b
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Sat Mar 2 19:41:58 2024 -0500
+
+    moved midterm proj items
