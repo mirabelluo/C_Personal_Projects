@@ -1,0 +1,36 @@
+# Discussion
+
+## PART I: MeasuredIndexedList Iterator
+
+From a design perspective, the MeasuredIndexedList Iterator should not affect the mutation count because traversing through a list using the iterator does not change the elements you are traversing through. The purpose of a mutation count is to track changes to the structure or content of the list, and since an iterator does not modify the elements or the structure, it should not contribute to this count. 
+
+When iterating over a MeasuredIndexedList, elements are sequentially accessed, but they are not modified. Since the next() method returns an element from the list, it can be argued that each call to next() should increment the access count. Including iteration in the access statistics would provide a more complete picture of how often elements are being accessed, regardless of whether the access is explicit (e.g., get() calls) or implicit.
+
+We cannot inherit from ArrayIndexedListIterator and override next() or hasNext() because ArrayIndexedListIterator is a private nested class in ArrayIndexedList and thus MeasuredIndexedList has no access to it.
+## PART II: Profiling Sorting Algorithms
+To best analyze the issue, I made the data set only sort through 15 elements because it would simplify determining the correct number of accesses and mutations for each sort. For the descending data set, the algorithms reported unusually high access and mutation counts that do not align with the expectations for sorting a such a small list. Specifically, Bubble Sort indicated 132 mutations. With a list of 15 elements sorted in descending order, I anticipated that each algorithm would access the elements around n(n - 1) / 2 times, which is 105 times. Noticing the discrepancy, I looked at the data contained in descending.data and saw that line 10 has the value 9990 and line 11 jumps to the value 999, which is nonconsecutive and not descending as line 12 is 9989, if these values were read in as integers. 
+
+I was unsure if this was the error, so I used the debugger to step into selection sort. While debugging, I noted that when sorting, the sorts would swap the values 9 and 10 so that 10 was in front of 9 when going through the ascending set. This is obviously non-anticipated behavior, so I looked at SortingAlgorithmDriver more closely and noticed that the ArrayIndexedLists were of type String, so they are actually comparing the ASCII value of 9 against the first character, 1, which is why the swapping was occuring. Thus, the ascending data set is not truly in ascending order as we are comparing lexographical value and not integer value. This would also explain the descending data values. Thus, the ascending data set is not actually in ascending order, which would cause for much larger numbers of accesses and mutations than expected for a small set of 15 elements.
+
+## PART III: Analysis of Selection Sort
+On each iteration of the inner loop, the algorithm compares the current element with the maximum element. Because the inner loop iterations are dependent on the outer loop iteration, we can see that this is an arithmetic sum. This comparison of maximum against current value is thus performed n(n - 1)/2 times. Additionally, each for loop condition will compare the current index against a value. In the outer loop, this comparison is made n times as the condition is i < length n - 1, and i will be compared one more time than n - 1 to assert the statement as false. Accordingly, we can make this same analysis for the inner for loop index comparison. As it is still an arithmetic sum, we get that this comparison happens n^2/2 times. 
+
+Thus, C(n) is the sum of all of these values. We get that C(n) = n^2 - n/2. 
+
+There are two assignments that only happen once, which are the assignments of i and j in the for loop condition. Within the inner loop, for the worst case scenario, the assignment max = j will happen the same amount of times as the if condition comparison, n(n-1)/2. The three other assignment in the outer loop would each accordingly occur n - 1 times as on the nth iteration, the loop will not be entered. Additionally, when i or j are post-incremented we are doing an assignment of i = i + 1. The post-increment for i happens n - 1 times and the post-increment of j happens n(n-1)/2 times. 
+
+Thus, A(n) = 1 + 1 + n(n - 1)/2 + 3(n - 1) + (n  1) + n(n-1)/2. We get that A(n) = n^2 + 3n - 2.
+
+## PART IV: Reflecting on Search Heuristics
+In both TransposeArraySet and MoveToFrontLinkedSet, the goal of the heuristic is to make the has() or find() operation faster for an element that is frequently accessed. By reorganizing the data structure after each access, whether that be moving the found target to the very front or swapping with that preceding the target, these heuristics effectively minimize the average search time.
+
+Removal in the MovedToFrontLinkedSet does not affect this heuristic as the remove() method does not change the position of the other elements. However, removal in the TransposeArraySet would affect the heuristic as in order to accomplish removal in O(1) time, we must first swap the target element with the last element and then remove. This means that the very last element, possibly the least searched for element could now be towards the front of a list (should our targeted element be towards the front of the list). 
+
+In conclusion, removal in the TransposeArraySet would not enhance, and actually negatively affect, the goal of the heuristic while removal in the MovedToFrontLinkedSet would not have an affect on the heuristic.
+
+## PART V: Profiling Search Heuristics
+My setup follows the basic set of adding values 0 to 9999, however, I do not shuffle them as I want to search for the very last element 9999. In my experiment, I search for 9999 a total of 20 times, as repeated searching of the same value should demonstrate the efficiency of applying these heuristics. Ultimately arraySet had a score of 0.230, linkedSet was 0.935, moveToFront was 0.918, and transposeSequence was 0.216.
+
+Comparing arraySet and transposeSequence, there is a .014 difference in their scores, with transposeSequence performing better, as expected. Comparing linkedSet and moveToFront there is a 0.017 difference in their scores, with moveToFront performing better, as expected. My data sets are big enough and also demonstrate how moveToFront relatively outperforms transposeSequence, which is expected as moveToFront moves the target value to the very front and transposeSequence moves the target one swap at a time towards the front.
+
+Had I seen no difference in score, I would have increased the number of times I was searching for the target value or made my dataset larger. Repeatedly searching for the same target emphasizes the benefits of the heuristics, as the time complexity decreases for subsequent searches. Additionally, increasing the number of iterations or adjusting the order of element access could quantify significant performance gains, as the efficiency of heuristics like MoveToFront and TransposeSequence becomes more noticeable over time. 
