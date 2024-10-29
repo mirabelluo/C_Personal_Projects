@@ -57,8 +57,27 @@ This is a personal repository for my coding projects, below is a brief descripti
 
 ## Java Projects
 
-(Description for Java projects can go here.)
+### Flappy Box
+- **Description:** A recreation of the classic Flappy Bird game, but with a box as the main character!
+- **Features:**
+  - Players control the box to fly through obstacles without crashing.
+  - Implements basic game mechanics like collision detection and gravity.
+  - Keeps track of high scores for replayability.
+  - Difficulty increases as the game progresses with faster obstacles.
 
+### BBST-PQ
+- **Description:** Implementation of multiple data structures including AVL Tree, Treap, and Binary Heap.
+- **Features:**
+  - Supports insertion, deletion, and access operations with priority queues.
+  - Utilizes self-balancing tree structures for efficient performance.
+  - Compares performance between AVL Tree, Treap, and Binary Heap.
+  - Includes unit tests to verify the correctness of each implementation.
+
+### Sorting and Searching
+- **Description:** Implementation of various sort and search heuristics on arrays and linked lists.
+- **Features:**
+  - Compares performance across different algorithms and data structures.
+  - Analyzes time complexity for each sorting and searching method.
 ---
 
 ## Python Projects
