@@ -3,6 +3,7 @@
 This is a personal repository for my coding projects, below is a brief description of each project.
 
 ---
+
 ## C++ Projects
 
 ### Chess Game
@@ -28,6 +29,7 @@ This is a personal repository for my coding projects, below is a brief descripti
   - Can handle large text files and outputs statistics in a formatted report.
 
 ---
+
 ## C Projects
 
 ### PPM Image Manipulation
@@ -50,6 +52,7 @@ This is a personal repository for my coding projects, below is a brief descripti
   - Takes input of an amount in cents.
   - Outputs the different combinations of coins (quarters, dimes, nickels, pennies) needed to form the total.
   - Optimized for minimal number of coins.
+
 ---
 
 ## Java Projects
@@ -60,7 +63,26 @@ This is a personal repository for my coding projects, below is a brief descripti
 
 ## Python Projects
 
-(Description for Python projects can go here.)
+### Sentiment Analysis
+- **Description:** Analyzes Twitter posts and uses keywords to classify them as positive or negative.
+- **Features:**
+  - Processes large volumes of Twitter data.
+  - Uses a predefined list of sentiment words to evaluate the sentiment of posts.
+  - Outputs sentiment classification for each post (positive or negative).
+
+### Box Collision Simulation
+- **Description:** A program that simulates two circles colliding in a box and their movements constrained to that box.
+- **Features:**
+  - Tracks the position and velocity of two circles inside a fixed box.
+  - Simulates collisions between the circles and the walls of the box.
+  - Visualizes the simulation in real-time.
+
+### Polynomial Class
+- **Description:** A custom polynomial class with functions for common operations.
+- **Features:**
+  - Supports polynomial addition, subtraction, and multiplication.
+  - Handles power operations and equality checking between polynomials.
+  - Computes derivatives of polynomials.
 
 ---
 
