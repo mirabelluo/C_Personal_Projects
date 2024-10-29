@@ -1,0 +1,618 @@
+commit e1457011dca6951564ada51e5bb852ebc8bb8126
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Thu Apr 25 23:10:00 2024 -0400
+
+    fixed memory leaks, finished fr? war MAY be over
+
+commit 33614632ac680bc7730e6cb7fb3c79fe31676d48
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Thu Apr 25 17:18:56 2024 -0400
+
+    trying to fix valgrind
+
+commit 4c11f84284ed37efbb7be737acb0de9f37fecccd
+Author: anna andrade <aandra12@jh.edu>
+Date:   Thu Apr 25 16:19:45 2024 -0400
+
+    deleted todo's and commented code
+
+commit d83b51c3b1a75c44cd5361328e3c12518cdd0a60
+Author: anna andrade <aandra12@jh.edu>
+Date:   Thu Apr 25 15:38:28 2024 -0400
+
+    add names/jheds at top of each file
+
+commit ed3b2394d020dd9a2b2e03b6b4d5e2a7a64e6da6
+Author: anna andrade <aandra12@jh.edu>
+Date:   Thu Apr 25 15:33:53 2024 -0400
+
+    readme done
+
+commit b0e03c8b37137eb96818cec625e3379a8b86d5c9
+Author: anna andrade <aandra12@jh.edu>
+Date:   Thu Apr 25 15:32:44 2024 -0400
+
+    readme wip
+
+commit 4a0e069f9dbee0abe80a201b66a799a565a8f98e
+Author: anna andrade <aandra12@jh.edu>
+Date:   Thu Apr 25 15:30:24 2024 -0400
+
+    readme wip
+
+commit dd5c578ebd92e5587710c7340fffdfd867dea26d
+Author: anna andrade <aandra12@jh.edu>
+Date:   Thu Apr 25 15:29:10 2024 -0400
+
+    readme wip
+
+commit 1d6d06720585e2bdddcf53c62d22e831f9f2b0ae
+Author: anna andrade <aandra12@jh.edu>
+Date:   Thu Apr 25 14:31:38 2024 -0400
+
+    removed debugging statements
+
+commit 189ce4f50f3c7f1665a02b6004dddeff08fb4723
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Thu Apr 25 11:50:57 2024 -0400
+
+    added some comments, tested exception handling
+
+commit 98ab44cb0c0d3a6b4462ac4ee4bdb9ad8b424871
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Thu Apr 25 01:40:04 2024 -0400
+
+    working points and overload input stream
+
+commit cd77b0fc7c3e6473c05b08527cf925ce8027bb13
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Thu Apr 25 00:44:41 2024 -0400
+
+    war is over?
+
+commit 8f9781093ddae3a9263bb42d2ef7336902b2c6ef
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Thu Apr 25 00:43:50 2024 -0400
+
+    anna and mirabel fixed in_mate and in_stalemategit add Game.cpp!
+
+commit e960c696fccb0eeb57d45b12b377f3e95b4068ab
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Wed Apr 24 21:50:36 2024 -0400
+
+    fixed a few small logical errors in point_value and find_king, bigger fish to fry next
+
+commit d99fb72453a99da088502e3fd948b309e105b035
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Wed Apr 24 21:17:55 2024 -0400
+
+    changed display of board
+
+commit 63177f3a71c956322672087c5c82c3e602f3ef64
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Wed Apr 24 19:00:24 2024 -0400
+
+    added promotion logic to move_piece
+
+commit 9ad1ee6ed5b24343adbc1a37902f34611316781c
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Wed Apr 24 17:30:48 2024 -0400
+
+    anna and mirabel's memory leak fixes
+
+commit 870204a44bf860e60bf3c816f5720056a8656c51
+Merge: aa5b7c7 1ca4516
+Author: anna andrade <aandra12@jh.edu>
+Date:   Wed Apr 24 13:55:09 2024 -0400
+
+    implementing stalemate, issue in temp board, need to make copy of game instead
+
+commit 1ca4516228aec37684585fbb2da8e0355545672d
+Merge: be61485 aabcf13
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Wed Apr 24 13:54:14 2024 -0400
+
+    debugging make_move
+
+commit be614855ea646a1621c1396294f65d53477289da
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Wed Apr 24 13:53:19 2024 -0400
+
+    debugging make_move
+
+commit aa5b7c7a416f263f106f7dba77d4aff8313fdfea
+Author: anna andrade <aandra12@jh.edu>
+Date:   Wed Apr 24 13:53:12 2024 -0400
+
+    stalement written, issue in creating temp board, need to create temp game
+
+commit aabcf1371b0ed5d21c5483e9a7660bacfa8f79b0
+Author: anna andrade <aandra12@jh.edu>
+Date:   Wed Apr 24 11:43:28 2024 -0400
+
+    wip in_stalemate, wip in_mate
+
+commit 14c8fbaaf9c71ab97576be33cb666e6e518881b3
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Wed Apr 24 00:58:16 2024 -0400
+
+    fixed Board.h declaration plus indentation
+
+commit 1681aaea1c0e4999a1dd56254401b0e19c327e76
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Wed Apr 24 00:47:07 2024 -0400
+
+    small fixes to game
+
+commit 175cd3c0b84232522c0a61b844b3e527e9e4db1c
+Merge: ec95ba6 63b3d63
+Author: Sophie Noureddine <70124284+Sophienour@users.noreply.github.com>
+Date:   Wed Apr 24 00:45:01 2024 -0400
+
+    Merge pull request #14 from jhu-ip/swaggest
+    
+    finished point value and added helper function in board
+
+commit 63b3d63c9574ae594c1c0e8e23d68f3bd8e5e9e5
+Merge: 803e1e8 ec95ba6
+Author: Sophie Noureddine <70124284+Sophienour@users.noreply.github.com>
+Date:   Wed Apr 24 00:44:52 2024 -0400
+
+    Merge branch 'master' into swaggest
+
+commit ec95ba61c45df601b717d635a600943e8a35831a
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Wed Apr 24 00:40:24 2024 -0400
+
+    fixed make_move and display is pink!
+
+commit 8fdb6da5efc8445dc2d3887ed80833625d9585e4
+Author: anna andrade <aandra12@jh.edu>
+Date:   Wed Apr 24 00:37:30 2024 -0400
+
+    updated .h file to add freaky function:
+
+commit 0091626822819c1dda52b7b801733744a887c9f9
+Author: anna andrade <aandra12@jh.edu>
+Date:   Wed Apr 24 00:36:47 2024 -0400
+
+    made helper function to iterate over a tester board
+
+commit c807806f7b76be89f7356a24eee50e1033279836
+Merge: f936de9 9f29597
+Author: anna andrade <aandra12@jh.edu>
+Date:   Tue Apr 23 20:40:28 2024 -0400
+
+    edits to improve readibility, some work on in_mate
+
+commit f936de96ce2f82043cffa3c7ca7746dc9ab11569
+Author: anna andrade <aandra12@jh.edu>
+Date:   Tue Apr 23 20:39:24 2024 -0400
+
+    minor edits to improve readibility, some work on in_mate
+
+commit 9f29597fc532df78a587b767d2f67a43de2ddafe
+Merge: 5c48ac9 2263e3e
+Author: Mirabel Luo <157405731+mirabelluo@users.noreply.github.com>
+Date:   Tue Apr 23 19:38:12 2024 -0400
+
+    Merge pull request #13 from jhu-ip/swagger
+    
+    possibly working todo for file i/o in main
+
+commit 2263e3e5d415a634b7c5dffed2eda0bc7607ae6d
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Tue Apr 23 19:08:22 2024 -0400
+
+    possibly working todo for file i/o in main
+
+commit 803e1e81a8f00bc83b35351df44c87aae37587cd
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Tue Apr 23 16:04:36 2024 -0400
+
+    finished point value and added helper function in board
+
+commit 5c48ac9678a4658872eadfc312c0db10dc8588df
+Merge: 2871b90 8b3a351
+Author: anna andrade <aandra12@jh.edu>
+Date:   Tue Apr 23 14:50:48 2024 -0400
+
+    helper function for finding position of king, consolidating in_check, wip in_mate
+
+commit 2871b908fa75eec4667a03fac194e33863152f27
+Author: anna andrade <aandra12@jh.edu>
+Date:   Tue Apr 23 14:48:19 2024 -0400
+
+    broke up in_check to create helper function find_king that can be called in other checking functions in_mate and in_stalement, consolidated in_check
+
+commit 8b3a35188d5f2b90b877297b119080b527f8efd9
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Tue Apr 23 14:47:48 2024 -0400
+
+    finished try-catch block for make_move in main
+
+commit 15cc954b62caddbc0209cb213220b970219f3f07
+Merge: 137e77a d92a92d
+Author: Mirabel Luo <157405731+mirabelluo@users.noreply.github.com>
+Date:   Tue Apr 23 14:30:29 2024 -0400
+
+    Merge pull request #12 from jhu-ip/swagger
+    
+    adding exceptions handling in main
+
+commit d92a92d6bb661ce4a734cbf9f9a626d221503d58
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Tue Apr 23 13:53:21 2024 -0400
+
+    adding exceptions handling in main
+
+commit 137e77aeac9e58eea9440c897f46c48bdcc131ea
+Merge: 447166d 311c1b4
+Author: anna andrade <aandra12@jh.edu>
+Date:   Tue Apr 23 13:26:06 2024 -0400
+
+    in_mate wip
+
+commit 447166d480ca6179ba78889ce839131a744ae148
+Author: anna andrade <aandra12@jh.edu>
+Date:   Tue Apr 23 13:24:39 2024 -0400
+
+    in_mate wip
+
+commit 311c1b484649702d3e2a4a0e6e9bde79a8a7f5e7
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Tue Apr 23 13:11:12 2024 -0400
+
+    working make_move (tentatively) !
+
+commit 68511e9145fd6385bbedfb17a55abee5ace7ffda
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Tue Apr 23 12:45:42 2024 -0400
+
+    debugging make_move
+
+commit dfdf71488debc572e31f01fa4d6b949ce1b39cec
+Author: anna andrade <aandra12@jh.edu>
+Date:   Tue Apr 23 03:49:31 2024 -0400
+
+    started implementing in_mate
+
+commit f50d678cde8450e0450bebe5e8a3cd1fc52d9e86
+Merge: 286c949 e346d91
+Author: aandra12 <157410891+aandra12@users.noreply.github.com>
+Date:   Tue Apr 23 03:29:30 2024 -0400
+
+    Merge pull request #9 from jhu-ip/swag
+    
+    consolidated rook legal move shape function
+
+commit e346d91e8dbfd8b1f2b768097d45e7de373a00f2
+Author: anna andrade <aandra12@jh.edu>
+Date:   Tue Apr 23 03:28:52 2024 -0400
+
+    in_check done, not tested
+
+commit dfb3b01af50350f0659ed82237a7043ebfca9e58
+Author: anna andrade <aandra12@jh.edu>
+Date:   Tue Apr 23 03:21:05 2024 -0400
+
+    in_check king position found
+
+commit ff3bafd533c0ce28841b7bc5d7deb43d277b1fe5
+Author: anna andrade <aandra12@jh.edu>
+Date:   Tue Apr 23 02:48:51 2024 -0400
+
+    working on in_check
+
+commit 286c949e617361fb9e36ed1e16b187c683a4f8c3
+Merge: 71804fe 8d0c2ad
+Author: Mirabel Luo <157405731+mirabelluo@users.noreply.github.com>
+Date:   Tue Apr 23 01:19:09 2024 -0400
+
+    Merge pull request #10 from jhu-ip/swagger
+    
+    merging for make_move
+
+commit 8d0c2adb2ce53bce1bebec6072e8176d3b6963d1
+Merge: f69ce68 71804fe
+Author: Mirabel Luo <157405731+mirabelluo@users.noreply.github.com>
+Date:   Tue Apr 23 01:18:12 2024 -0400
+
+    Merge branch 'master' into swagger
+
+commit f69ce68a42a7abfd7fa43fa20057948dd04fde37
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Tue Apr 23 01:16:04 2024 -0400
+
+    finished make_move and helpers, testing is next
+
+commit 9424caafeba164edba55b7626d019a974dacd946
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Mon Apr 22 23:27:56 2024 -0400
+
+    wip of make_move
+
+commit 0f83e67becac08e803ee81236c942a25b9976187
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Mon Apr 22 23:09:14 2024 -0400
+
+    added a comment, pushing to check master
+
+commit dff7ebcff174dddd86e0e5a22940b3ceeb7c2e18
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Mon Apr 22 23:05:35 2024 -0400
+
+    working on make_move, made a helper to move on copy
+
+commit 03a3b55d00fd5411d5fee941187f8c136e3eca73
+Author: anna andrade <aandra12@jh.edu>
+Date:   Mon Apr 22 22:43:53 2024 -0400
+
+    tester code for testing iterator in case it's needed again
+
+commit 52a63ffab5c82fbc0109c2c2ac41cf80518b352d
+Author: anna andrade <aandra12@jh.edu>
+Date:   Mon Apr 22 22:43:23 2024 -0400
+
+    fixed iterator, now iterates to H8
+
+commit 2686c0898a5f77ac5cd3c5f67553b6a2ca941e01
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Mon Apr 22 22:33:07 2024 -0400
+
+    working on make_move
+
+commit 503797b5be7e39f392d84726f8f26bb433973e96
+Author: anna andrade <aandra12@jh.edu>
+Date:   Mon Apr 22 21:03:21 2024 -0400
+
+    tested iterator, works i think
+
+commit 8bbab02608c50f130c6fd36c1dee1d6bf5dbdedb
+Merge: 0a08349 71804fe
+Author: aandra12 <157410891+aandra12@users.noreply.github.com>
+Date:   Mon Apr 22 20:15:25 2024 -0400
+
+    Merge branch 'master' into swag
+
+commit 0a08349c11bc8e803bf47a5b348d8d4a3c93cd9b
+Author: anna andrade <aandra12@jh.edu>
+Date:   Mon Apr 22 20:08:33 2024 -0400
+
+    consolidated Rook legal move shape
+
+commit 71804fe1d95a6e2beaede36521eb005a98a1467f
+Author: anna andrade <aandra12@jh.edu>
+Date:   Mon Apr 22 20:05:34 2024 -0400
+
+    fixed type issues, removed exception handling that should happen in another function
+
+commit e9ffdc442f647a6cfc1a40a83d629ca5a11492b4
+Author: anna andrade <aandra12@jh.edu>
+Date:   Mon Apr 22 20:03:23 2024 -0400
+
+    iterator class done?
+
+commit 6c79a965e4e84e03811d4069f47eb5ae7a314928
+Author: anna andrade <aandra12@jh.edu>
+Date:   Mon Apr 22 16:44:40 2024 -0400
+
+    iterator ++ and * done/wip
+
+commit 1265c3d52a63e937844ccca19658d111549bdfd1
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Mon Apr 22 16:36:26 2024 -0400
+
+    constructor for Board iter
+
+commit 1070b1457e39a2493667c8f354d3276c8e7f6bed
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Mon Apr 22 16:30:10 2024 -0400
+
+    iterator wip
+
+commit 8bb2d27e7c0f7dfe106dcd8b399eccb36862a3a4
+Author: anna andrade <aandra12@jh.edu>
+Date:   Mon Apr 22 16:27:21 2024 -0400
+
+    iterator wip
+
+commit 004c8ddfbd8303019008a14660f7a04f04bad77f
+Merge: 17a3987 bebb9b7
+Author: anna andrade <aandra12@jh.edu>
+Date:   Mon Apr 22 16:14:20 2024 -0400
+
+    started in_check
+
+commit bebb9b768dad72c95e76623117e2b81c000ecc65
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Mon Apr 22 16:10:17 2024 -0400
+
+    fixed minor mistake in knight
+
+commit 17a3987f341707e61494296a7554e521774cb52b
+Author: anna andrade <aandra12@jh.edu>
+Date:   Mon Apr 22 15:50:46 2024 -0400
+
+    working on iterator
+
+commit 5899822bdc6c5fa7758c2012140649ec5b20a374
+Merge: 5205580 a7d71df
+Author: Sophie Noureddine <70124284+Sophienour@users.noreply.github.com>
+Date:   Mon Apr 22 14:29:06 2024 -0400
+
+    Merge pull request #8 from jhu-ip/swaggest
+    
+    changes to queen
+
+commit a7d71df7cbf1fb363d39d29c0b9bd3c783f889a7
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Mon Apr 22 14:28:31 2024 -0400
+
+    changes to queen
+
+commit 5205580b1cf96910d92fc516b4147fd980db725b
+Merge: fd6086a d814de7
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Mon Apr 22 14:05:26 2024 -0400
+
+    finished display in Board.cpp
+
+commit fd6086aed6895e5ff81481a8b5cf8c3b522da28f
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Mon Apr 22 13:29:46 2024 -0400
+
+    finished disp
+
+commit 92d40fca52d6bc86eb045c1276aee0fb88985c21
+Author: anna andrade <aandra12@jh.edu>
+Date:   Mon Apr 22 02:03:26 2024 -0400
+
+    forgot closing parentheses
+
+commit d814de70adda561d5a13738a4142d4b90a77928c
+Merge: e6dd282 7b1d7d6
+Author: aandra12 <157410891+aandra12@users.noreply.github.com>
+Date:   Mon Apr 22 02:02:48 2024 -0400
+
+    Merge pull request #7 from jhu-ip/swag
+    
+    got rid of create_piece since it kept giving errors, fixed small issues in knight.cpp
+
+commit 7b1d7d6f905ed11dbde510581f3abddeb2e700e9
+Author: anna andrade <aandra12@jh.edu>
+Date:   Mon Apr 22 02:01:26 2024 -0400
+
+    minute error fixed, also got rid of create_piece
+
+commit 114124dbf6fb19bf5455f1c722ae751323af28a7
+Author: anna andrade <aandra12@jh.edu>
+Date:   Mon Apr 22 02:01:00 2024 -0400
+
+    error in create_piece so i removed it
+
+commit e6dd2829ca6463333e5e53c2afa6e0cea391c172
+Merge: 02a012c 5802ebf
+Author: aandra12 <157410891+aandra12@users.noreply.github.com>
+Date:   Mon Apr 22 01:57:43 2024 -0400
+
+    Merge pull request #6 from jhu-ip/swag
+    
+    wrote knight class, not tested
+
+commit 5802ebf88c856f8ac07c0ba72f771b52dac173be
+Author: anna andrade <aandra12@jh.edu>
+Date:   Mon Apr 22 01:57:16 2024 -0400
+
+    wrote knight class, not tested
+
+commit 02a012c8e4571e39db27cfc91152b0f97ffa2704
+Merge: 831c82c 8c29f67
+Author: aandra12 <157410891+aandra12@users.noreply.github.com>
+Date:   Sun Apr 21 20:36:37 2024 -0400
+
+    Merge pull request #5 from jhu-ip/swag
+    
+    wrote create_piece for rook
+
+commit 8c29f67a7fc9c13653130a6bfa3034a6bbc616c6
+Author: anna andrade <aandra12@jh.edu>
+Date:   Sun Apr 21 20:35:49 2024 -0400
+
+    wrote create_piece for rook
+
+commit c4df926519aebbdccce1ac721fba0509ec57d680
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Sun Apr 21 20:33:58 2024 -0400
+
+    finished bishop and queen and they work
+
+commit 831c82c306f080d281994e0c361eb2146ffc76d2
+Merge: 9545878 84801c2
+Author: aandra12 <157410891+aandra12@users.noreply.github.com>
+Date:   Sun Apr 21 20:28:42 2024 -0400
+
+    Merge pull request #4 from jhu-ip/swag
+    
+    rook legal_move_shape written
+
+commit 9545878500b61ece87fb5da342299629a63fd8c3
+Merge: 1914cdc 9b7eafe
+Author: Mirabel Luo <157405731+mirabelluo@users.noreply.github.com>
+Date:   Sun Apr 21 17:49:06 2024 -0400
+
+    Merge pull request #3 from jhu-ip/swagger
+    
+    implemented operator() and add_piece in Board.cpp
+
+commit 9b7eafe9a00705bfbb055dd806d5ea3080af0d3d
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Sun Apr 21 17:48:18 2024 -0400
+
+    implemented operator() and add_piece in Board.cpp
+
+commit 1914cdc89b246a64cec1a58374a375a6fe171eaa
+Merge: fe09704 2c0da18
+Author: Mirabel Luo <157405731+mirabelluo@users.noreply.github.com>
+Date:   Sun Apr 21 16:41:41 2024 -0400
+
+    Merge pull request #2 from jhu-ip/swagger
+    
+    finished King.cpp implementation
+
+commit 2c0da188c88c0cfa9c52ac3537dd453952c4285f
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Sun Apr 21 16:40:58 2024 -0400
+
+    finished King.cpp implementation
+
+commit 84801c2c1e0927cd6a5f10fd29ce0f9526468d3e
+Author: anna andrade <aandra12@jh.edu>
+Date:   Sun Apr 21 16:20:30 2024 -0400
+
+    wrote legal_move_shape
+
+commit fe09704fc4313333ea15d6d78dd0c9c3b0814e51
+Merge: fa5545f d76c25e
+Author: Mirabel Luo <157405731+mirabelluo@users.noreply.github.com>
+Date:   Sun Apr 21 16:18:14 2024 -0400
+
+    Merge pull request #1 from jhu-ip/swagger
+    
+    implemented legal_move_shape and capture of pawn
+
+commit d76c25e21ae47309811b257e02f9856e3a57740a
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Sun Apr 21 16:17:07 2024 -0400
+
+    implemented legal_move_shape and capture of pawn
+
+commit 19fd5fa35dc712ec19a0378d13bcd4938ff4d921
+Author: anna andrade <aandra12@jh.edu>
+Date:   Sun Apr 21 14:39:09 2024 -0400
+
+    started writing rook
+
+commit fa5545fcf6779a1ea17add3f8a267541babc2a2a
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Wed Apr 17 14:26:18 2024 -0400
+
+    actually nvm
+
+commit a44595006bfe5b7f0dc45e7eee70176c71eb91e7
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Wed Apr 17 14:24:27 2024 -0400
+
+    deleted a function I was not supposed to modify
+
+commit a60895b6cd6ae9e51601c7cac8b4cc22612ee444
+Author: Sophie Noureddine <snoured1@jhu.edu>
+Date:   Wed Apr 17 13:32:44 2024 -0400
+
+    finished legal move shape in queen.cpp but haven't tested
+
+commit f5e9ce5162d508430be32b25c2df279bcd6496b0
+Author: Mirabel Luo <mluo12@jhu.edu>
+Date:   Mon Apr 15 13:35:41 2024 -0400
+
+    added starter code for final project

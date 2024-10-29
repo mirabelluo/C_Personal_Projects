@@ -1,0 +1,11 @@
+Mirabel Luo, mluo12
+Hopkins ID: 4AD13F
+
+CTree: No extra helper functions were added. For simpler/more efficient code, addChild(char ch) and 
+addSibling(char ch) both initialize a Ctree object pointer with data ch in order to call addChild(Ctree *root) 
+or addSibling(CTree *root).
+
+TTree: Follows an almost identical implementation and structure to the CTree header file, 
+with adjustments in order to generalize to any type. Utilizes one helper function, order(std::ostream& os), 
+for more efficient implementation of toString(). The same implementation could also be used in CTree, but I specifically chose to implement
+it in TTree for more flexibility in order to deal w/ non-char types.
