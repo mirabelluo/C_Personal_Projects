@@ -5,19 +5,19 @@ This is a personal repository for my coding projects, below is a brief descripti
 ---
 ## C++ Projects
 
-### Ctree-Ttrees
-- **Description:** A project focused on constructing trees based on words that share common consonants or vowels.
-- **Features:**
-  - Builds trees (Ctree for consonants, Ttree for vowels) by grouping words based on shared consonants or vowels.
-  - Helps visualize relationships between words with similar phonetic structures.
-  - Useful practice with tree data structures.
-    
 ### Chess Game
 - **Description:** A fully functional chess game.
 - **Features:**
   - Allows two players to play chess against each other.
   - Implements all standard chess rules, including check, checkmate, and castling.
   - Includes a graphical user interface for easy interaction.
+    
+### Ctree-Ttrees
+- **Description:** A project focused on constructing trees based on words that share common consonants or vowels.
+- **Features:**
+  - Builds trees (Ctree for consonants, Ttree for vowels) by grouping words based on shared consonants or vowels.
+  - Helps visualize relationships between words with similar phonetic structures.
+  - Useful practice with tree data structures.
     
 ### Digraph Analyzer
 - **Description:** A tool for analyzing digraphs (two-letter phonetic combinations) in a given text file.
